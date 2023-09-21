@@ -9,7 +9,7 @@
 #
 # Ported by @mrismanaziz
 # FROM LawStore-UserBot< https://github.com/mrismanaziz/PyroMan-Userbot/ >
-# t.me/lawstoreid & t.me/mabarmolehellianz
+# t.me/lawstoreid & t.me/testylawstore
 #
 
 import asyncio

@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/mabarmolehellianz & t.me/lawstoreid
+# t.me/testylawstore & t.me/lawstoreid
 
 import time
 

@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/mabarmolehellianz & t.me/lawstoreid
+# t.me/testylawstore & t.me/lawstoreid
 
 
 class First:
@@ -16,7 +16,7 @@ class First:
       __Thanks For Using me__
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [Sharing Userbot](t.me/mabarmolehellianz)
+✣ **Group Support :** [Sharing Userbot](t.me/testylawstore)
 ✣ **Channel Man :** [lawstoreid](t.me/lawstoreid)
 ✣ **Owner Repo :** [Risman](t.me/mrismanaziz)
 ✣ **Repo :** [PyroMan-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot)"""

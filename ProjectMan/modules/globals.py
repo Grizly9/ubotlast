@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/mabarmolehellianz & t.me/lawstoreid
+# t.me/testylawstore & t.me/lawstoreid
 
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
@@ -55,7 +55,7 @@ async def gban_user(client: Client, message: Message):
         return await Man.edit("**Gagal GBAN karena dia adalah Pembuat saya 🗿**")
     if user_id in WHITELIST:
         return await Man.edit(
-            "**Gagal GBAN karena dia adalah admin @mabarmolehellianz 🗿**"
+            "**Gagal GBAN karena dia adalah admin @testylawstore 🗿**"
         )
     if user_id:
         try:
@@ -174,7 +174,7 @@ async def gmute_user(client: Client, message: Message):
         return await Man.edit("**Gagal GMUTE karena dia adalah Pembuat saya 🗿**")
     if user.id in WHITELIST:
         return await Man.edit(
-            "**Gagal GMUTE karena dia adalah admin @mabarmolehellianz 🗿**"
+            "**Gagal GMUTE karena dia adalah admin @testylawstore 🗿**"
         )
     try:
         replied_user = reply.from_user

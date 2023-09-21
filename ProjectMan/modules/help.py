@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/mabarmolehellianz & t.me/lawstoreid
+# t.me/testylawstore & t.me/lawstoreid
 
 from prettytable import PrettyTable
 from pyrogram import Client, enums, filters
@@ -33,7 +33,7 @@ async def module_help(client: Client, message: Message):
         for x in split_list(sorted(CMD_HELP.keys()), 2):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
         await edit_or_reply(
-            message, f"```{str(ac)}```\n• @lawstoreid × @mabarmolehellianz •"
+            message, f"```{str(ac)}```\n• @lawstoreid × @testylawstore •"
         )
         await message.reply(
             f"**Contoh Ketik** `{CMD_HANDLER}help afk` **Untuk Melihat Informasi Module**"
