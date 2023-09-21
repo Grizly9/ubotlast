@@ -36,12 +36,6 @@ async def absen(_, message: Message):
     await message.reply("**Hadir!**")
 
 
-@Client.on_message(filters.command("repo", cmd) & filters.me)
-async def repo(client: Client, message: Message):
-    await edit_or_reply(
-        message, First.REPO.format(BOT_VER), disable_web_page_preview=True
-    )
-
 
 @Client.on_message(filters.command("creator", cmd) & filters.me)
 async def creator(client: Client, message: Message):
@@ -151,7 +145,6 @@ add_command_help(
     "start",
     [
         ["alive", "Check if the bot is alive or not."],
-        ["repo", "Display the repo of this userbot."],
         ["creator", "Show the creator of this userbot."],
         ["id", "Send id of what you replied to."],
         [f"up `or` {cmd}uptime", "Check bot's current uptime."],
