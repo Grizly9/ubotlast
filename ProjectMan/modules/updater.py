@@ -8,7 +8,7 @@
 # All rights reserved.
 #
 # Ported by @mrismanaziz
-# FROM PyroMan-Userbot < https://github.com/mrismanaziz/PyroMan-Userbot/ >
+# FROM LawStore-UserBot< https://github.com/mrismanaziz/PyroMan-Userbot/ >
 # t.me/lawstoreid & t.me/mabarmolehellianz
 #
 
@@ -175,7 +175,7 @@ async def upstream(client: Client, message: Message):
             repo.__del__()
             return
         await status.edit(
-            "`[HEROKU]: Update Deploy PyroMan-Userbot Sedang Dalam Proses...`"
+            "`[HEROKU]: Update Deploy LawStore-UserBotSedang Dalam Proses...`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -192,7 +192,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`PyroMan-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
+            "`LawStore-UserBotBerhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
         )
     else:
         try:
@@ -201,7 +201,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`PyroMan-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`",
+            "`LawStore-UserBotBerhasil Diupdate! Userbot bisa di Gunakan Lagi.`",
         )
         args = [sys.executable, "-m", "ProjectMan"]
         execle(sys.executable, *args, environ)
