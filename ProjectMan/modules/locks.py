@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/mabarmolehellianz & t.me/lawstoreid
 
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import ChatNotModified

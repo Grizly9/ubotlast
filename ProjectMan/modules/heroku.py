@@ -9,7 +9,7 @@
 #
 # Ported by @mrismanaziz
 # FROM File-Sharing-Man < https://github.com/mrismanaziz/File-Sharing-Man/ >
-# t.me/Lunatic0de & t.me/SharingUserbot
+# t.me/lawstoreid & t.me/mabarmolehellianz
 #
 
 import asyncio

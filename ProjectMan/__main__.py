@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/mabarmolehellianz & t.me/lawstoreid
 
 import importlib
 
@@ -33,8 +33,8 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("Lunatic0de")
-            await bot.join_chat("SharingUserbot")
+            await bot.join_chat("lawstoreid")
+            await bot.join_chat("mabarmolehellianz")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)

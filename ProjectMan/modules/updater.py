@@ -9,7 +9,7 @@
 #
 # Ported by @mrismanaziz
 # FROM PyroMan-Userbot < https://github.com/mrismanaziz/PyroMan-Userbot/ >
-# t.me/Lunatic0de & t.me/SharingUserbot
+# t.me/lawstoreid & t.me/mabarmolehellianz
 #
 
 import asyncio

@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/SharingUserbot & t.me/Lunatic0de
+# t.me/mabarmolehellianz & t.me/lawstoreid
 
 
 class First:
@@ -16,8 +16,8 @@ class First:
       __Thanks For Using me__
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)
-✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)
+✣ **Group Support :** [Sharing Userbot](t.me/mabarmolehellianz)
+✣ **Channel Man :** [lawstoreid](t.me/lawstoreid)
 ✣ **Owner Repo :** [Risman](t.me/mrismanaziz)
 ✣ **Repo :** [PyroMan-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot)"""
     CREATOR = 'I was created by my master <a href="https://github.com/mrismanaziz/PyroMan-Userbot">Man</a> on a rainy day.'
