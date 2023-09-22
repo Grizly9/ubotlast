@@ -16,22 +16,21 @@ from requests import get
 
 from config import BLACKLIST_GCAST
 from config import CMD_HANDLER as cmd
-from ProjectDark.helpers.adminHelpers import DEVS
-from ProjectDark.helpers.basic import edit_or_reply
-from ProjectDark.helpers.misc import HAPP, in_heroku
-from ProjectDark.helpers.tools import get_arg
-from ProjectDark.utils.misc import restart
+from ProjectMan.helpers.basic import edit_or_reply
+from ProjectMan.helpers.misc import HAPP, in_heroku
+from ProjectMan.helpers.tools import get_arg
+from ProjectMan.utils.misc import restart
 
 from .help import add_command_help
 
 while 0 < 6:
     _GCAST_BLACKLIST = get(
-        "https://raw.githubusercontent.com/Grizly9/lawstore-userbot/master/bleklis.json"
+        "https://raw.githubusercontent.com/mrismanaziz/Reforestation/master/blacklistgcast.json"
     )
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        GCAST_BLACKLIST = []
+        GCAST_BLACKLIST = [-1001473548283, -1001390552926]
         break
     GCAST_BLACKLIST = _GCAST_BLACKLIST.json()
     break
