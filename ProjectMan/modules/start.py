@@ -37,11 +37,6 @@ async def absen(_, message: Message):
 
 
 
-@Client.on_message(filters.command("creator", cmd) & filters.me)
-async def creator(client: Client, message: Message):
-    await edit_or_reply(message, First.CREATOR)
-
-
 @Client.on_message(filters.command(["uptime", "up"], cmd) & filters.me)
 async def uptime(client: Client, message: Message):
     now = datetime.now()
@@ -145,7 +140,6 @@ add_command_help(
     "start",
     [
         ["alive", "Check if the bot is alive or not."],
-        ["creator", "Show the creator of this userbot."],
         ["id", "Send id of what you replied to."],
         [f"up `or` {cmd}uptime", "Check bot's current uptime."],
     ],
