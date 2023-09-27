@@ -33,10 +33,10 @@ from .help import add_command_help
 
 modules = CMD_HELP
 alive_logo = (
-    gvarstatus("ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+   "https://telegra.ph/file/ae95acb9bc8475d288182.jpg"
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "⚡️"
-alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Hey, I am alive."
+alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Nyala Om"
 
 
 @Client.on_message(filters.command(["alive", "awake"], cmd) & filters.me)
@@ -54,7 +54,7 @@ async def alive(client: Client, message: Message):
         f"{emoji} <b>Python Version :</b> <code>{python_version()}</code> \n"
         f"{emoji} <b>Pyrogram Version :</b> <code>{versipyro}</code> \n"
         f"{emoji} <b>Bot Uptime :</b> <code>{uptime}</code> \n\n"
-        f"    **[CH TESTY](https://t.me/testylawstore)** | **[CH STORE](https://t.me/lawstoreid)** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={client.me.id})**"
+        f"    **[CH TESTY](https://t.me/testylawstore)** | **[CH STORE](https://t.me/lawstoreid)** | **[Owner](tg://user?id={client.me.id})**"
     )
     try:
         await asyncio.gather(
