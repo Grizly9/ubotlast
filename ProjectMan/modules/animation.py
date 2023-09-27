@@ -1345,11 +1345,11 @@ add_command_help(
             "Get Dong",
         ],
         [
-            "ganstar",
+            "gangstar",
             "Animation Gangster",
         ],
         [
-            "charge",
+            "charging",
             " Tesla animation charging",
         ],
     ],
