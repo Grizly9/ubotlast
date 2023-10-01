@@ -5,10 +5,12 @@
   "env": {
     "API_ID": {
       "description": "Dapatkan API ID di web my.telegram.org Masukan yg APP ID Telegram",
+      "value": "12878267",
       "required": true
     },
     "API_HASH": {
       "description": "Dapatkan API Hash di web my.telegram.org",
+      "value": "b3r4k1232111",
       "required": true
     },
     "STRING_SESSION1": {
