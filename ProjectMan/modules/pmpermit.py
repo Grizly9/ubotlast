@@ -28,7 +28,7 @@ DEF_UNAPPROVED_MSG = (
     "• account ini telah dipasang law-userbot\n"
     "• pesan anda telah saya terima\n"
     "• Jangan Spam Chat atau anda akan otomatis diblokir.\n"
-    "    𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 -LawStore-UserBot\n"
+    "𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 LawStore-UserBot\n"
 )
 
 
