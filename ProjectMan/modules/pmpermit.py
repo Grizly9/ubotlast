@@ -22,15 +22,13 @@ from ProjectMan.helpers.tools import get_arg
 from .help import add_command_help
 
 DEF_UNAPPROVED_MSG = (
-    "╔════════════════════╗\n"
-    "     ⛑ 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 ⛑\n"
-    "╚════════════════════╝\n"
-    "• Saya belum menyetujui anda untuk PM.\n"
-    "• Tunggu sampai saya menyetujui PM anda.\n"
+   
+    "     𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗦𝗜\n"
+    "\n"
+    "• account ini telah dipasang law-userbot\n"
+    "• pesan anda telah saya terima\n"
     "• Jangan Spam Chat atau anda akan otomatis diblokir.\n"
-    "╔════════════════════╗\n"
     "    𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 -LawStore-UserBot\n"
-    "╚════════════════════╝\n"
 )
 
 
