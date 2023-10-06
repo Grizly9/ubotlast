@@ -69,7 +69,7 @@ async def nearest_dc(client: Client, message: Message):
 async def pingme(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(message, "​🇹​​🇪​​🇸​​🇹​​🇮​​🇳​​🇬​ ​🇸​​🇵​​🇪​​🇪​​🇩​ ​🇧​​🇾​ ​🇱​​🇦​​🇼​​🇸​​🇹​​🇴​​🇷​​🇪​-​🇺​​🇧​​🇴​​🇹​....")
+    xx = await edit_or_reply(message, "testing speed....")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
