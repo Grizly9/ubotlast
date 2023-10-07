@@ -54,7 +54,7 @@ async def alive(client: Client, message: Message):
         f"{emoji} <b>Python Version :</b> <code>{python_version()}</code> \n"
         f"{emoji} <b>Pyrogram Version :</b> <code>{versipyro}</code> \n"
         f"{emoji} <b>Bot Uptime :</b> <code>{uptime}</code> \n\n"
-        f"    **[CH TESTY](https://t.me/testylawstore)** | **[CH STORE](https://t.me/lawstoreid)** | **[Owner](tg://user?id={client.me.id})**"
+        f"    **[CH TESTY](https://t.me/testylawstore)** | **[CH STORE](https://t.me/lawstoreid)** | **[OWNER](tg://user?id={client.me.id})**"
     )
     try:
         await asyncio.gather(
