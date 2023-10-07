@@ -85,7 +85,7 @@ f"<b>╎❒webshot</b> \n"
 f"<b>╚┈┈┈┈┈┈┈┈┈┈┈┈</b> \n"
         )
         await message.reply(
-            f"**SEBAGAI CONTOH : .help afk untuk lihat cara pakai fitur afk**"
+            f"**CONTOH :.help afk untuk lihat cara pakai fitur afk**"
         )
 
     if help_arg:
