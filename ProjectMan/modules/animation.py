@@ -949,7 +949,7 @@ async def tank(client: Client, message: Message):
     )
 
 @Client.on_message(filters.command("list", cmd) & filters.me)
-async def list(client: Client, message: Message):
+async def listnya(client: Client, message: Message):
     await edit_or_reply(
         message,
         "list jualan ada dibawah\n"
@@ -957,7 +957,7 @@ async def list(client: Client, message: Message):
     )
 
     @Client.on_message(filters.command("pay", cmd) & filters.me)
-async def pay(client: Client, message: Message):
+async def paynya(client: Client, message: Message):
     await edit_or_reply(
         message,
         "LIST PEMBAYARAN DISINI\n"
