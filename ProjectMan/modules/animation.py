@@ -948,20 +948,20 @@ async def tank(client: Client, message: Message):
         "◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤\n",
     )
 
-@Client.on_message(filters.command("payment", cmd) & filters.me)
-async def tank(client: Client, message: Message):
-    await edit_or_reply(
-        message,
-        "UNTUK PEMBAYARAN\n"
-        "silahlan klik user dibawah\n"
-        "@paymentlawstore\n",
-    )
 @Client.on_message(filters.command("list", cmd) & filters.me)
-async def tank(client: Client, message: Message):
+async def list(client: Client, message: Message):
     await edit_or_reply(
         message,
         "list jualan ada dibawah\n"
         "https://t.me/lawstoreid/22\n",
+    )
+
+    @Client.on_message(filters.command("pay", cmd) & filters.me)
+async def pay(client: Client, message: Message):
+    await edit_or_reply(
+        message,
+        "LIST PEMBAYARAN DISINI\n"
+        "https://t.me/paymentlawstore\n",
     )
 
 @Client.on_message(filters.command("babi", cmd) & filters.me)
