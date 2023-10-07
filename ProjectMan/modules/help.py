@@ -29,13 +29,10 @@ async def module_help(client: Client, message: Message):
         ac.header = False
         ac.title = "LAWSTORE USERBOT"
         ac.align = "l"
-        send = client.send_photo
-        alive_logo = (
-   "https://telegra.ph/file/ae95acb9bc8475d288182.jpg"
-)
         for x in split_list(sorted(CMD_HELP.keys()), 2):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
-law =( f"<b>╔┈「LAW STORE USERBOT」</b>\n"
+        await edit_or_reply(
+            message, f"<b>╔┈「LAW STORE USERBOT」</b>\n"
 f"<b>╎❒pemilik:</b> <code>{client.me.mention}<code>\n"
 f"<b>╎❒status: PREMIUM</b>\n"
 f"<b>╎❒managed by: </b> @lawstoreid\n"
@@ -86,19 +83,9 @@ f"<b>╎❒vctools</b> \n"
 f"<b>╎❒voice</b> \n"
 f"<b>╎❒webshot</b> \n"
 f"<b>╚┈┈┈┈┈┈┈┈┈┈┈┈</b> \n"
-)
-try:
-        await asyncio.gather(
-            xx.delete(),
-            send(
-                message.chat.id,
-                alive_logo,
-                caption=law,
-                reply_to_message_id=ReplyCheck(message),
-            ),
         )
         await message.reply(
-            f"**Contoh Ketik** `{CMD_HANDLER}help afk` **Untuk Melihat Informasi Module**"
+            f"**SEBAGAI CONTOH : .help afk untuk lihat cara pakai fitur afk**"
         )
 
     if help_arg:
