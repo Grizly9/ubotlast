@@ -956,7 +956,7 @@ async def listnya(client: Client, message: Message):
         "https://t.me/lawstoreid/22\n",
     )
 @Client.on_message(filters.command("bayar", cmd) & filters.me)
-async def listnya(client: Client, message: Message):
+async def bayarnya(client: Client, message: Message):
     await edit_or_reply(
         message,
         "bayar disini\n"
