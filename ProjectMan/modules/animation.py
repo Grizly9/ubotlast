@@ -953,7 +953,7 @@ async def listnya(client: Client, message: Message):
     await edit_or_reply(
         message,
         "list jualan ada dibawah\n"
-        "https://t.me/lawstoreid/22\n",
+        "https://t.me/lawstoreid\n",
     )
 @Client.on_message(filters.command("bayar", cmd) & filters.me)
 async def bayarnya(client: Client, message: Message):
