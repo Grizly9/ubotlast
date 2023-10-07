@@ -32,10 +32,10 @@ async def module_help(client: Client, message: Message):
         for x in split_list(sorted(CMD_HELP.keys()), 2):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
         await edit_or_reply(
-            message, f"<b>╔┈「ɪɴғᴏᴜsᴇʀ」</b>\n"
+            message, f"<b>╔┈「LAW STORE USERBOT」</b>\n"
 f"<b>╎❒pemilik:</b> <code>{client.me.mention}<code>\n"
-f"<b>╎❒status:PREMIUM</b>\n"
-f"<b>╎❒managed by:</b> @lawstoreid\n"
+f"<b>╎❒status: PREMIUM</b>\n"
+f"<b>╎❒managed by: </b> @lawstoreid\n"
 f"<b>╚┈┈┈┈┈┈┈┈┈┈┈┈</b>\n"
 f"<b>╔┈「MODULELIST」</b>\n"
 f"<b>admin</b> \n"
