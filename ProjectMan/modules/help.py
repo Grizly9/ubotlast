@@ -97,9 +97,6 @@ try:
                 reply_to_message_id=ReplyCheck(message),
             ),
         )
-    except BaseException:
-        await xx.edit(man, disable_web_page_preview=True)
-
         await message.reply(
             f"**Contoh Ketik** `{CMD_HANDLER}help afk` **Untuk Melihat Informasi Module**"
         )
