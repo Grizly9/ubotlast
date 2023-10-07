@@ -15,12 +15,10 @@ from config import CMD_HANDLER
 from ProjectMan import CMD_HELP
 from ProjectMan.helpers.basic import edit_or_reply
 from ProjectMan.helpers.utility import split_list
-from ProjectMan.utils import get_readable_time
 
 @Client.on_message(filters.command("help", CMD_HANDLER) & filters.me)
 async def module_help(client: Client, message: Message):
     cmd = message.command
-    uptime = await get_readable_time((time.time() - StartTime))
     help_arg = ""
     if len(cmd) > 1:
         help_arg = " ".join(cmd[1:])
@@ -37,7 +35,7 @@ async def module_help(client: Client, message: Message):
             message, f"<b>╔┈「ɪɴғᴏᴜsᴇʀ」</b>\n"
 f"<b>╎❒pemilik:</b> <code>{client.me.mention}<code>\n"
 f"<b>╎❒status:PREMIUM</b>\n"
-f"<b>╎❒uptime:</b> <code>{uptime}</code>\n"
+f"<b>╎❒managed by:</b> @lawstoreid\n"
 f"<b>╚┈┈┈┈┈┈┈┈┈┈┈┈</b>\n"
 f"<b>╔┈「MODULELIST」</b>\n"
 f"<b>admin</b> \n"
