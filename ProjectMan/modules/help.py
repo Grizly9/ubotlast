@@ -20,6 +20,7 @@ from ProjectMan.helpers.utility import split_list
 @Client.on_message(filters.command("help", CMD_HANDLER) & filters.me)
 async def module_help(client: Client, message: Message):
     cmd = message.command
+    uptime = await get_readable_time((time.time() - StartTime))
     help_arg = ""
     if len(cmd) > 1:
         help_arg = " ".join(cmd[1:])
