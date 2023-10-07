@@ -955,12 +955,11 @@ async def listnya(client: Client, message: Message):
         "list jualan ada dibawah\n"
         "https://t.me/lawstoreid/22\n",
     )
-
-    @Client.on_message(filters.command("pay", cmd) & filters.me)
-async def paynya(client: Client, message: Message):
+@Client.on_message(filters.command("bayar", cmd) & filters.me)
+async def listnya(client: Client, message: Message):
     await edit_or_reply(
         message,
-        "LIST PEMBAYARAN DISINI\n"
+        "bayar disini\n"
         "https://t.me/paymentlawstore\n",
     )
 
